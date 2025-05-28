@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+langchain
+openai
+faiss-cpu
+pymupdf
+pdfplumber
+transformers
+scikit-learn
+pandas
+numpy
+python-multipart
+tqdm
+joblib
+boto3
+s3fs
