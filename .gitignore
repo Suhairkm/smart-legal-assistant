@@ -5,9 +5,20 @@ __pycache__/
 .ipynb_checkpoints/
 .env
 
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment variables
+.env
+
+
 # Ignore data and model artifacts
-data/
-models/
+data/*
+models/*
 !data/README.md
 !models/README.md
 
@@ -18,3 +29,7 @@ models/
 *.pkl
 *.json
 *.csv
+
+# System files
+.DS_Store
+Thumbs.db
